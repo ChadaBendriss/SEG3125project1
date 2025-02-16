@@ -1,0 +1,173 @@
+/* Hero Section */
+.hero-section {
+    background: url('../images/contactus.jpg') center/cover no-repeat;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+/* Dark Overlay for Better Readability */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Hero text */
+.hero-overlay {
+    position: relative;
+    z-index: 2;
+}
+
+/* Time Buttons */
+.time-buttons button {
+    margin: 5px;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+/* Form inputs */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+/* Calendar Styling */
+.ui-datepicker {
+    font-size: 14px;
+    width: 100%;
+    max-width: 260px;
+}
+
+
+.time-buttons button.selected {
+    background-color: #dc3545; /* Red color */
+    color: white;
+    border-color: #dc3545;
+}
+
+/* Confirmation Message Section */
+.confirmation-message {
+    padding: 40px 0;
+}
+.navbar {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .nav-link {
+    font-weight: 600;
+}
+.navbar-brand img {
+    height: 50px; 
+}
+.btn-primary {
+    background-color: #d72b2b !important; 
+    border: none !important; 
+    border-radius: 25px !important; 
+    padding: 8px 20px !important; 
+}
+
+.btn-primary:hover {
+    background-color: #f85127 !important; 
+}
+.custom-btn {
+    background-color: #d72b2b !important; 
+    font-size: 1.1rem;
+    padding: 6px 60px;
+    border-radius: 25px !important; 
+}
+
+.custom-btn:hover{
+    background-color: #fff !important; 
+    color: #d72b2b !important; 
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    margin-top: 60px;
+}
+
+/* Footer Sections - Ensuring Equal Spacing */
+.footer .footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* Ensure the columns are evenly spaced */
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Footer Headings */
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Footer Paragraphs */
+.footer p {
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+/* Footer Links */
+.footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #ddd;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #f8d210; /* Change color on hover */
+}
+
+/* Responsive Footer */
+@media (max-width: 767px) {
+    .footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+
+
